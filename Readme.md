@@ -1,13 +1,19 @@
 # Projeto Site - Crash Bandicoot
 ![image](https://github.com/LehLapa/SiteDJWII/blob/main/Crash.avif)
-# Autores:
+# Criadores:
 Aluna: Letícia da Lapa Silva 
 **Cursando:** ETEC Professor Basilídes de Godoy - Ensino Médio Integrado ao Curso Técnico de Programação de Jogos Digitais. 2ºA/2023
 
 # Descrição 
-Esse projeto é a criação de um site, para se familiarizar e desenvolver a linguagem Java Script. 
+Esse projeto é a criação de um site, para se familiarizar e desenvolver a linguagem Java Script. Especificamente o Add Event Listener utilizando o **click** do **mouse**. 
 
-
+    var myimage = document.getElementById("imgc");
+      myimage.addEventListener('click', () =>{
+      let imgp = Math.round(Math.random () * 10) + 1;
+      myimage.setAttribute("src", "img/"+imgp+".jpg");
+    });
+##
+# Códigos Git Bash
 Em primeiro passo, passei todos os códigos para o programa Visual Code, após, adicionei "New Files" com as linhas de código. Códigos de HTML, CSS e JavaScript. Adicionei também uma "New Folder", pasta para adicionar as imagens do Site. 
 Segundo passo foi abrir o Git Bash na pasta, no qual programei o trabalho, e digitar os seguintes códigos:
 $ git --version (Para verificar a versão que instalei do Git Bash). Logo após adicionei:
