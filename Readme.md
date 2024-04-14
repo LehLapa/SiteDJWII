@@ -1,5 +1,5 @@
 # Projeto Site - Crash Bandicoot
-
+![image](https://github.com/LehLapa/SiteDJWII/blob/main/Crash.avif)
 # Autores:
 Aluna: Letícia da Lapa Silva 
 **Cursando:** ETEC Professor Basilídes de Godoy - Ensino Médio Integrado ao Curso Técnico de Programação de Jogos Digitais. 2ºA/2023
